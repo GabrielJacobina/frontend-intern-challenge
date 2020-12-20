@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 .barra{
     height: 3rem;
     text-align: center;
-    font: 30px Roboto;
+    font: 30px 'Roboto Slab';
     background-color: #EEE;
 }
 
@@ -14,14 +17,45 @@
     background: url("../Assets/background-home.jpg");
     background-size: 1000px;
     height: 50rem;
+    color: #EEE;
+    text-align: center;
+    font: 1.3em 'Roboto';
+}
+
+.divText{  
+    position: relative;
+    top: 18rem;
+    
+}
+
+.entrada{
+    position: relative;
+    top: 22rem;
+}
+
+#link{
+    width: 22rem;
+    height: 2.5rem;
+    font: 1.2em 'Roboto';
+    color: #E64A19;
+    border: 0;
+    background-color: rgba(0,0,0,0.0);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+#encurtar{
+    width: 9rem;
+    height: 2.6rem;
+    font: 0.9em 'Roboto';
+    border: 0;
+    color: white;
+    background-color: #E64A19;
 }
 
 .titulo{
-    font: 5em small-caps white;
-}
-
-
-
-#home{
-    width: 100%;   
+    font: 2.5em 'Roboto Slab';
+    font-weight: bolder; 
 }
