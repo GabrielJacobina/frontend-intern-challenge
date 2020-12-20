@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barra{
+    height: 3rem;
+    text-align: center;
+    font: 30px Roboto;
+    background-color: #EEE;
+}
+
+#intro{
+    background: url("../Assets/background-home.jpg");
+    background-size: 1000px;
+    height: 50rem;
+}
+
+.titulo{
+    font: 5em small-caps white;
+}
+
+
+
+#home{
+    width: 100%;   
+}
