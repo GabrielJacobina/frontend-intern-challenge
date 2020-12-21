@@ -10,12 +10,11 @@
     height: 3rem;
     text-align: center;
     font: 30px 'Roboto Slab';
-    background-color: #EEE;
 }
 
 #intro{
     background: url("../Assets/background-home.jpg");
-    background-size: 1000px;
+    background-size: 100%;
     height: 50rem;
     color: #EEE;
     text-align: center;
@@ -58,4 +57,40 @@ input:-webkit-autofill {
 .titulo{
     font: 2.5em 'Roboto Slab';
     font-weight: bolder; 
+}
+
+.top5{
+    height: 30rem;
+    font: 1.2em 'Roboto';
+    font-weight: bolder;
+    text-align: center; 
+    color: #AA1423;
+}
+
+.rank{
+    position: relative;
+    top: 2rem;
+}
+
+h2{
+    font: 3.0rem 'Roboto Slab';
+    top: 80rem;
+}
+
+.tabela{
+    margin: auto;
+    position: relative;
+}
+
+td{
+    width: 20rem;
+    font: 100% 'Roboto';
+    color: #777;
+
+}
+
+.linksT{
+    margin: 1%;
+    font-weight: bolder;
+    color: #AA1423;
 }
